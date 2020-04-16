@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  width: 30%;
+  margin: 0 auto;
+}
+.aryaCard {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/525c6ffffea68e160399eca45484bad7fe2f968ce8248e80701ac4e4909cdbc64d8f10cb2569b7d825ebd52b4c384af6-1556721054.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+}
+p {
+  color: white;
+  line-height: 2.9em;
+  text-align: center;
+  border: 2px white solid;
+}
+
+.theCard {
+  border: 2px solid white;
+}
+
+.whiteBoxes {
+  border: 1px solid white;
+}
+button {
+  width: 50%;
+  margin-left: 25%;
+}
+body {
+  background-color: grey;
+}
